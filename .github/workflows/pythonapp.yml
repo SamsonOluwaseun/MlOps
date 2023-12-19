@@ -1,12 +1,11 @@
-name: Python application test with Github Actions
+name: Python application test with GitHub Actions
 
 on: [push]
 
 jobs:
   build:
-
+  
     run-on: ubuntu-latest
-
     steps:
     - uses: action/checkout@v2
     - name: Set Up Python 3.8
